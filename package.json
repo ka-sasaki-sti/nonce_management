@@ -1,0 +1,19 @@
+{
+  "name": "nonce_management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@infura/sdk": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "redis": "^4.6.10",
+    "web3": "^4.2.1"
+  }
+}
