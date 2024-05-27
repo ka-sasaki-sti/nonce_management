@@ -2,6 +2,8 @@ const { Web3 } = require('web3');
 const { createClient } = require('redis');
 const fs = require('fs');
 
+
+
 const { abi } = JSON.parse(fs.readFileSync('Demo.json'));
 
 async function main() {
